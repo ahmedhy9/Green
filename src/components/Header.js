@@ -15,7 +15,7 @@ function Header() {
           {/* End NavBar */}
         </div>
         <div className="row">
-          <div className="col-6">
+          <div className="col-12 col-sm-12 col-md-6 col-lg-6">
             <div className="content-header">
               <h2>Hello, I'm Lisa</h2>
               <p>
@@ -30,7 +30,7 @@ function Header() {
               </div>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-12 col-sm-12 col-md-6 col-lg-6">
             <img src="img/img1.png" alt="" />
           </div>
         </div>

@@ -9,30 +9,30 @@ function Section1() {
       <div className="container">
         <h2></h2>
         <div className="row">
-          <div className="col-6">
+          <div className="col-12 col-sm-12 col-md-6 col-lg-6">
             <img src="img/img2.png" alt="" />
           </div>
-          <div className="col-6">
+          <div className="col-12 col-sm-12 col-md-6 col-lg-6">
             <div className="con-con">
               <ContentSec1 {...DataCont} />
             </div>
           </div>
         </div>
         <div className="row">
-          <div className="col-6">
+          <div className="col-12 col-sm-12 col-md-6 col-lg-6">
             <div className="con-con">
               <ContentSec1 {...DataCont} />
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-12 col-sm-12 col-md-6 col-lg-6">
             <img src="img/img3.png" alt="" />
           </div>
         </div>
         <div className="row">
-          <div className="col-6">
+          <div className="col-12 col-sm-12 col-md-6 col-lg-6">
             <img src="img/img4.png" alt="" />
           </div>
-          <div className="col-6">
+          <div className="col-12 col-sm-12 col-md-6 col-lg-6">
             <div className="con-con">
               <ContentSec1 {...DataCont} />
             </div>
