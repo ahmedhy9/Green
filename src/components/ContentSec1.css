@@ -1,0 +1,10 @@
+.content-items {
+  padding: 30px;
+  height: max-content;
+}
+.content-items h4 {
+  margin-bottom: 15px;
+}
+.content-items p {
+  width: 70%;
+}

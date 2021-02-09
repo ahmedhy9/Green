@@ -1,12 +1,6 @@
 .main-header {
   position: relative;
 }
-
-.svg-content {
-  position: absolute;
-  right: 10%;
-  top: 260px;
-}
 .content-header {
   padding-left: 50px;
 }

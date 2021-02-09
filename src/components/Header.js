@@ -8,9 +8,6 @@ function Header() {
   return (
     //==========Start Header==========//
     <div className="main-header">
-      <div className="svg-content">
-        <img src="img/img1.png" alt="" />
-      </div>
       <div className="container">
         <div className="row">
           {/* Start NavBar */}
@@ -33,7 +30,9 @@ function Header() {
               </div>
             </div>
           </div>
-          <div className="col-6"></div>
+          <div className="col-6">
+            <img src="img/img1.png" alt="" />
+          </div>
         </div>
       </div>
     </div>
