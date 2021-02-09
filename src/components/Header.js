@@ -4,6 +4,12 @@ function Header() {
   return (
     //==========Start Header==========//
     <div className="main-header">
+      <div className="svg-content">
+        <svg>
+          <circle r="50%" cx="50%" cy="50%" />
+          <img src="img/img1.png" alt="" />
+        </svg>
+      </div>
       <div className="container">
         <div className="row">
           {/* Start NavBar */}
