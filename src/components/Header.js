@@ -1,14 +1,15 @@
 import React from "react";
 import Navbar from "./Navbar";
+import "./Header.css";
+import Button from "./Button";
+import { btnData2 } from "./Data";
+
 function Header() {
   return (
     //==========Start Header==========//
     <div className="main-header">
       <div className="svg-content">
-        <svg>
-          <circle r="50%" cx="50%" cy="50%" />
-          <img src="img/img1.png" alt="" />
-        </svg>
+        <img src="img/img1.png" alt="" />
       </div>
       <div className="container">
         <div className="row">
@@ -24,7 +25,7 @@ function Header() {
                 Multifunctional designer/developer based in Bath — a
                 traditionally trained designer who codes.
               </p>
-              <button>View Work</button>
+              <Button {...btnData2} />
               <div className="socialmedia">
                 <i class="fab fa-facebook-f"></i>
                 <i class="fab fa-behance-square"></i>

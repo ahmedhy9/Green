@@ -1,0 +1,36 @@
+.main-header {
+  position: relative;
+}
+
+.svg-content {
+  position: absolute;
+  right: 10%;
+  top: 260px;
+}
+.content-header {
+  padding-left: 50px;
+}
+.content-header h2 {
+  font-size: 45px;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+.content-header p {
+  width: 70%;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.row:nth-child(2) {
+  margin-top: 250px;
+}
+.socialmedia i {
+  width: 50px;
+  color: #3f3d56;
+  font-size: 30px;
+}
+.socialmedia {
+  width: 50%;
+  display: flex;
+  margin-top: 100px;
+  margin-left: 20px;
+}
